@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 exec(open("tree_utils/__init__.py").read())
 
 setup(
-    name='tree_utils',
+    name='recurse-tree-process',
     version=__version__,
     include_package_data=True,
     python_requires='>=3',
