@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      },
+      {
+        "name": "Python: Attach",
+        "type": "python",
+        "request": "attach",
+        "connect": {
+          "host": "localhost",
+          "port": 5678
+        }
+      },
+      {
+        "name": "Python: fs_recursion.py example",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/tree_utils/fs_recursion.py",
+        "args": []
+      },
+      {
+        "name": "Python: dedup_pool_dir.py0 example",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/pooling/dedup_pool_dir.py",
+        "args": []
+      },
+      {
+        "name": "Python: dedup_pool_dir.py full example",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/pooling/dedup_pool_dir.py",
+        "args": [
+          "/mnt/synology-nas/sich/rawimages/Cam_sich_Panas",
+          "-t",
+          "/mnt/synology-nas/raw-images-pool",
+          "-fm",
+          "'.+\\.(rw2|raw)'",
+          "--hash_blocks_limit",
+          "5",
+          "--debug_transactions",
+          "-ha",
+          "-tag",
+          "image",
+          "rawimage"
+        ]
+      }
+    ]
+  }
+  

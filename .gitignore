@@ -1,0 +1,14 @@
+spawn-typescript-script.sh
+templates/typescript-script.ts
+**/node_modules/
+**/tsconfig.json
+**/package.json
+**/package-lock.json
+.pyc
+.cpython*
+*.pyc
+index.json
+index.json.zlib
+*__pycache__
+__pycache__
+*.egg*
