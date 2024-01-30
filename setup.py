@@ -15,6 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Markus Peitl",
     author_email='office@markuspeitl.com',
+    url="https://github.com/markuspeitl/recurse-tree-process",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Intended Audience :: Developers",
