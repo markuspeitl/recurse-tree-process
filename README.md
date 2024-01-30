@@ -30,4 +30,6 @@ def example_extract_file_paths(root_dir_path: str, options={}, mode=RecursionStr
     tree_node_functions.process_node = process_dir
 
     return fs_tree_recursion(root_dir_path, tree_node_functions, options, mode=mode)
+
+example_extract_file_paths('/some/path')
 ```
